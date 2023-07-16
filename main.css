@@ -1,0 +1,127 @@
+@charset "utf-8";
+body{
+	background-color: #FFFFFF;
+}
+h1 {
+    color: #050505;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15pt;
+}
+h2 {
+    color: #0D83A7;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17pt;
+    text-align: center;
+}
+p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 12pt;
+    font-style: italic;
+    border: thin solid #1F8692;
+    background-color: #CEF5F5;
+    border-collapse: collapse;   /* background-repeat: repeat;*/
+}
+ol li {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12pt;
+    text-align: left;
+	line-height: 1.25;
+}
+img {
+    clear: none;
+
+}
+nav {
+    width: 100%;
+    background-color: #A2EDF3;
+}
+nav ul {
+	list-style-type: none;
+	
+}
+nav ul li {
+	display: inline-block;
+	width: 12%;
+	text-align: center;
+	
+}
+nav ul li a:link{
+	text-decoration: none;
+	display:block;
+	padding: 0.5% 0;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	display:block;
+	color: darkorchid;
+	background-color: beige;
+	padding: 0.5% 0;
+}
+
+/* Form Layout Style */
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+}
+
+form#survey {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+form#survey> fieldset {
+	background-color: rgb(241, 232, 181);
+	border-radius: 20px;
+	flex: 1 1 300px;
+	font-size: 0.5cm; 
+	padding: 10px;
+	margin: 10px;
+}
+
+legend {
+	background-color: rgb(179, 20, 25);
+	color: white;
+	padding: 5 px;
+}
+h3 {
+    color: #B82526;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+textarea {
+	margin-top: 10px;
+	height: 60px;
+	width: 95%;
+}
+
+div#buttons {
+	text-align: center;
+	width: 100%;	
+}
+
+input[type='submit'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+	
+}
+footer {
+    background-color: #FFFFFF;
+    border: none;
+}
